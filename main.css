@@ -1,0 +1,83 @@
+body {
+background-color: #c9c2c1;
+display:block;
+
+}
+#neat{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#heading {
+display:flex;
+justify-content: center;
+color:#9c7370;
+border-bottom: 4px solid black;
+}
+#comments {
+background-color: #b3aead;
+height:7000px;
+width:500px;
+margin-top:50px;
+display:flex;
+justify-content: center;
+
+}
+#topComment{
+  border:5px solid black;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: fixed;
+  width:300px;
+  background-color:  #e0dddc;
+}
+#butt{
+  width:50px;
+}
+#make {
+  margin-top:500px;
+  border:5px solid black;
+  height:3%;
+  position: fixed;
+  padding:5px;
+  background-color:  #e0dddc;
+}
+#commentSpace{
+  margin-top: 150px;
+  height:100%;
+  width:100%;
+  background-color: #b3aead;
+  display:block;
+}
+#sent{
+  width:80%;
+
+  margin-top: 7px;
+  margin-left: 50px;
+  background-color:#e0dddc;
+  display:flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#sent p, h3 {
+margin-top:3px;
+margin-left:5px;
+
+}
+#sent input {
+margin:5px;
+}
+#edit{
+  width:50px;
+}
+#delete{
+  width:50px;
+}
+#trouble{
+  color:#d4210d;
+}
+.hide{
+  flex:none;
+}
